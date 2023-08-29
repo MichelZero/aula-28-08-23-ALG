@@ -7,8 +7,8 @@
 
 # entrada de dados
 lista = []
-maior = -1000
-menor = 1000
+maior = float('-inf')
+menor = float('inf')
 
 for i in range(4):
   valor = int(input(f"informe o valor[{i}]: "))
